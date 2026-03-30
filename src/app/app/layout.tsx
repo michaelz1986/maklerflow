@@ -6,6 +6,7 @@ import {
   LayoutDashboard,
   Radar,
   SearchCheck,
+  Sparkles,
   Building2,
   Users,
   Settings,
@@ -15,6 +16,7 @@ import { cn } from '@/lib/utils';
 
 const navItems = [
   { href: '/app', label: 'Dashboard', icon: LayoutDashboard },
+  { href: '/app/matches', label: 'Smart Matches', icon: Sparkles },
   { href: '/app/scraper', label: 'Lead-Scraper', icon: Radar },
   { href: '/app/buyer-finder', label: 'Käufer-Finder', icon: SearchCheck },
   { href: '/app/listings', label: 'Meine Objekte', icon: Building2 },
